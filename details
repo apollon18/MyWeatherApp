@@ -1,0 +1,23 @@
+
+Approaches
+    
+   -A splash screen with animation was used as intro to the app, so that the data can load while the user has a smooth experience.
+   -The three basic functions of the app was separated in different activities/fragments. That way the user has a very clear idea what is the purpose of every one       of them(main list activity is the selected cities, search fragment offers the ability to search and add favorite city, city details page offers more detailed       data on the city selected.
+   -RecyclerView Adapters were used in spots that we had to show a lot of dynamic data.
+   -Helpers and Utilities classes were user to separate the activity functions from the work that had to be done in objects and in the database.
+   -Listeners were used to implement user actions in the Adapter elements.
+
+Third Party Libraries Usage
+
+    -Retrofit to create the HTTPS Client for our app and conseme the RESTFUL API. Very easy to use and very good in consuming JSON responses.
+
+    -Realm Database for application database was used because because of familiarity and experience in using it. It is a fast database built from scratch for mobile      database usage.
+   
+   -Glide library was used for getting images from urls and using it in the app. It gives us better memory management and image sizing when using the url images.        It's great for using in adapters that have a lot of images to load.
+   
+   
+ Extra Thing to do with more time
+ 
+    -Make the ui better
+    -Give the user options to customize the data(change temperature from celsius to farenheit for example)
+    -Add a refresh button in the main list to update the data selected(or even add an scheduled update every x time passed)
