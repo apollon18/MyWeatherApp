@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyWeatherApp</string>
+
+    <string name="main_list_header">Your City List</string>
+    <string name="main_list_empty_text">Your favorite cities list is empty!Select your favorite cities from the Search section by selecting the search icon above.</string>
+
+    <string name="search_fragment_title">Search</string>
+    <string name="search_hint_text">Type the city name and press the search icon</string>
+    <string name="search_empty_state">Your search returned no results!Try with another city name.</string>
+
+    <string name="celsius_text">%1$s°C</string>
+
+    <string name="delete_dialog_text">Do you really want to remove this city from your list?</string>
+    <string name="error_dialog_text">Something gone wrong.Try again later.</string>
+</resources>
